@@ -217,6 +217,7 @@
   padding-left: 10px;
   padding-top: 10px;
   animation: mobile-message 1s  0.4s forwards;
+  color: white;
 }
 
 .form button {
