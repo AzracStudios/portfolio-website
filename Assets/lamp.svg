@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1040.918" height="1212.99" viewBox="0 0 1040.918 1212.99">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#51c3e4"/>
+      <stop offset="1" stop-color="#14ccff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Lamp" transform="translate(0 0)">
+    <path id="Light" d="M487.618,0C484.34,2.163,0,1004.99,0,1004.99l1040.918-.466V844.682L564.16.013Z" transform="translate(0 208)" opacity="0.16" fill="url(#linear-gradient)"/>
+    <ellipse id="Bulb" cx="44.5" cy="38.5" rx="44.5" ry="38.5" transform="translate(480.141 144)" fill="#5bf2fd" opacity="0.6"/>
+    <rect id="Lead" width="22" height="139" transform="translate(513.105 0)" fill="#010101"/>
+    <path id="Head" d="M213.858,90H0A107.53,107.53,0,0,1,12.871,54.374a108.55,108.55,0,0,1,188.116,0A107.533,107.533,0,0,1,213.858,90Z" transform="translate(417.214 118)" fill="#010101"/>
+  </g>
+</svg>

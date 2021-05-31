@@ -1,0 +1,91 @@
+@keyframes desktop-nav {
+  from {
+    left: -100px;
+  }
+
+  to {
+    left: 0px;
+  }
+}
+
+@keyframes mobile-nav {
+  from {
+    top: -100px;
+  }
+
+  to {
+    top: 0px;
+  }
+}
+
+.mobileNav {
+  z-index: 999;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  height: 60px;
+  background-color: #0b0530;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.521);
+  animation: mobile-nav 1s forwards;
+}
+
+.mobileNav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.mobileNav li {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mobileNav img {
+  width: 25px;
+  height: 25px;
+}
+
+.desktopNav {
+  z-index: 999;
+  position: fixed;
+  left: 0px;
+  width: 70px;
+  height: 100vh;
+  background-color: #0b0530;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.521);
+  animation: desktop-nav 1s forwards;
+}
+
+.desktopNav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.desktopNav li {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.desktopNav li:hover {
+  transform: translateY(-10px);
+}
+
+.desktopNav .logo:hover {
+  transform: translateY(0px);
+}
+
+.desktopNav img {
+  width: 25px;
+  height: 25px;
+}

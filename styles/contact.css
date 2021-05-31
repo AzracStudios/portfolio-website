@@ -1,0 +1,312 @@
+@keyframes desktop-head {
+  from {
+    top: 13%;
+    opacity: 0;
+  }
+
+  50% {
+    top: 16%;
+  }
+
+  to {
+    top: 14%;
+  }
+}
+
+@keyframes desktop-input {
+  from {
+    width: 0px;
+  }
+
+  50% {
+    width: 520px;
+  }
+
+  to {
+    width: 480px;
+    height: 50px;
+  }
+}
+
+@keyframes desktop-btn {
+  from {
+    width: 0px;
+  }
+
+  50% {
+    width: 250px;
+    opacity: 1;
+  }
+
+  to {
+    width: 200px;
+    height: 50px;
+    opacity: 1;
+  }
+}
+
+@keyframes desktop-message {
+  from {
+    width: 0px;
+  }
+
+  5% {
+    opacity: 1;
+  }
+
+  50% {
+    width: 520px;
+    opacity: 1;
+  }
+
+  to {
+    width: 480px;
+    height: 200px;
+    opacity: 1;
+  }
+}
+
+@keyframes desktop-socials {
+  from{
+    top: 100%;
+  }
+
+  50%{
+    top: 93%;
+  }
+
+  to{
+    top: 95%;
+    opacity: 1;
+  }
+}
+
+@keyframes mobile-head {
+  from {
+    top: 13%;
+    opacity: 0;
+  }
+
+  50% {
+    top: 16%;
+  }
+
+  to {
+    top: 15%;
+  }
+}
+
+@keyframes mobile-input {
+  from {
+    width: 0px;
+  }
+
+  50% {
+    width: 300px;
+  }
+
+  to {
+    width: 280px;
+    height: 40px;
+  }
+}
+
+@keyframes mobile-message {
+  from {
+    width: 0px;
+  }
+
+  5%{
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+    width: 300px;
+  }
+
+  to {
+    width: 280px;
+    opacity: 1;
+    height: 150px;
+  }
+}
+
+@keyframes mobile-btn {
+  from {
+    width: 0px;
+    opacity: 0;
+  }
+
+  50% {
+    width: 220px;
+    opacity: 1;
+  }
+
+  to {
+    width: 180px;
+    height: 50px;
+    opacity: 1;
+  }
+}
+
+@keyframes mobile-socials {
+  from{
+    top: 120%;
+  }
+
+  50%{
+    top: 97%;
+  }
+
+  to{
+    top: 100%;
+    opacity: 1;
+  }
+}
+
+
+.mobileWrapper .head {
+  position: absolute;
+  color: white;
+  left: 50%;
+  top: 15%;
+  font-size: 32px;
+  transform: translateX(-50%);
+  animation: mobile-head 1s forwards;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+}
+
+.form input {
+  background-color: #100b31;
+  outline: none;
+  border: none;
+  height: 0px;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.63);
+  margin-bottom: 20px;
+  padding-left: 10px;
+  color: white;
+  animation: mobile-input 1s  0.2s  forwards ;
+}
+
+.form ::placeholder {
+  color: rgb(95, 95, 95);
+}
+
+.form textarea {
+  background-color: #100b31;
+  outline: none;
+  border: none;
+  height: 0px;
+  opacity: 0;
+  border-radius: 10px;
+  width: 0px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.63);
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  animation: mobile-message 1s  0.4s forwards;
+}
+
+.form button {
+  background-color: #100b31;
+  outline: none;
+  border: none;
+  height: 50px;
+  border-radius: 10px;
+  width: 0px;
+  opacity: 0;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.63);
+  color: rgb(95, 95, 95);
+  font-size: 20px;
+  cursor: pointer;
+  animation: mobile-btn 1s  0.6s  forwards;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  opacity: 0;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  animation: mobile-socials 1s 0.6s forwards;
+}
+
+.socials img {
+  width: 25px;
+}
+
+body{
+  overflow: hidden;
+}
+
+
+.desktopWrapper .head {
+  position: absolute;
+  color: white;
+  left: 50%;
+  top: 14%;
+  font-size: 32px;
+  transform: translateX(-50%);
+  animation: desktop-head 1s forwards;
+}
+
+.desktopWrapper .form {
+  top: 55%;
+}
+
+.desktopWrapper .form .name {
+  width: 0px;
+  height: 0px;
+  animation: desktop-input 1s 0.2s forwards;
+}
+
+.desktopWrapper .form .email {
+  width: 0px;
+  height: 0px;
+  animation: desktop-input 1s 0.4s forwards;
+}
+
+.desktopWrapper .form textarea {
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+  animation: desktop-message 1s 0.6s forwards;
+}
+
+.desktopWrapper .form ::placeholder {
+  color: rgb(95, 95, 95);
+}
+
+.desktopWrapper .form button {
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+  animation: desktop-btn 1s 0.8s forwards;
+}
+
+.desktopWrapper .socials {
+  animation: desktop-socials 1s 1s forwards;
+  opacity: 0;
+  top: 95%;
+  width: 20%;
+}
+
+.desktopWrapper .socials img {
+  width: 25px;
+}

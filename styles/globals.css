@@ -1,0 +1,32 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: monospace, "Fira Mono";
+}
+
+body {
+  background-color: #130d3f;
+  width: calc(100vw -60px);
+  height: 100vh;
+  position: relative;
+}
+
+.mobileWrapper {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobileWrapper {
+    display: block;
+  }
+
+  .desktopWrapper {
+    display: none;
+  }
+
+  body {
+    width: 100vw;
+    height: calc(100vh - 60px);
+  }
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="255" height="292.5" viewBox="0 0 255 292.5">
+  <defs>
+    <filter id="Icon_awesome-html5" x="0" y="0" width="255" height="292.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.478"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="html" transform="translate(-165 -2416.25)">
+    <g id="Rectangle_22" data-name="Rectangle 22" transform="translate(206 2451)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="171" height="198" stroke="none"/>
+      <rect x="0.5" y="0.5" width="170" height="197" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 165, 2416.25)" filter="url(#Icon_awesome-html5)">
+      <path id="Icon_awesome-html5-2" data-name="Icon awesome-html5" d="M0,18.75,20.449,250.664l91.758,30.586,92.344-30.586L225,18.75ZM180.586,93.691H72.891l2.4,28.945H178.184l-7.969,86.953-57.363,15.82v.176h-.645l-57.832-16-3.516-44.414H78.809L80.859,187.5l31.348,8.5,31.465-8.5,3.516-36.445H49.395l-7.5-85.312h141.27Z" transform="translate(15 -13.75)" fill="#e44d26"/>
+    </g>
+  </g>
+</svg>

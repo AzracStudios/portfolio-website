@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="255" height="292.5" viewBox="0 0 255 292.5">
+  <defs>
+    <filter id="Icon_awesome-css3-alt" x="0" y="0" width="255" height="292.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.478"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="css" transform="translate(-614 -2416.25)">
+    <g id="Path_101" data-name="Path 101" transform="translate(645 2425)" fill="#fff">
+      <path d="M 42.02439880371094 223.3409881591797 L 6.329625129699707 21.0700798034668 L 186.8087158203125 21.0700798034668 L 163.9754638671875 217.6711578369141 L 42.02439880371094 223.3409881591797 Z" stroke="none"/>
+      <path d="M 6.925567626953125 21.57005310058594 L 42.44038391113281 222.8210906982422 L 163.5278015136719 217.1914215087891 L 186.2472686767578 21.57005310058594 L 6.925567626953125 21.57005310058594 M 5.733642578125 20.57005310058594 L 187.3701171875 20.57005310058594 L 164.423095703125 218.15087890625 L 41.60841369628906 223.8608551025391 L 5.733642578125 20.57005310058594 Z" stroke="none" fill="#48a0dc"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 614, 2416.25)" filter="url(#Icon_awesome-css3-alt)">
+      <path id="Icon_awesome-css3-alt-2" data-name="Icon awesome-css3-alt" d="M0,18.75,20.449,250.664,112.5,281.25l92.051-30.586L225,18.75ZM183.457,65.625,180.645,93.34l-67.559,28.887-.176.059h65.332l-7.5,85.9L113.2,225,55.313,207.891l-3.75-43.3H80.215l1.875,22.441,30.82,7.793,32.051-9.023,2.168-36.094-97.441-.293v-.059l-.117.059-2.109-27.129,65.684-27.363,3.809-1.582H44.941l-3.4-27.715Z" transform="translate(15 -13.75)" fill="#5c7be7"/>
+    </g>
+  </g>
+</svg>

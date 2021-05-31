@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250.629" height="252.462" viewBox="0 0 250.629 252.462">
+  <defs>
+    <filter id="Path_115" x="72.279" y="74.175" width="104.175" height="104.175" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.478"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_113" x="0" y="0" width="102.278" height="104.111" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.478"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_114" x="146.454" y="148.35" width="104.175" height="104.111" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.478"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="strapi" transform="translate(-1438.739 -3796)">
+    <g id="Group_20" data-name="Group 20" transform="translate(1453.739 3801)">
+      <g transform="matrix(1, 0, 0, 1, -15, -5)" filter="url(#Path_115)">
+        <path id="Path_115-2" data-name="Path 115" d="M0,0H74.175V74.175H0Z" transform="translate(87.28 79.18)" fill="#9784EC"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -15, -5)" filter="url(#Path_113)">
+        <path id="Path_113-2" data-name="Path 113" d="M4763.017,3661l-72.278,74.111h72.272Z" transform="translate(-4675.74 -3656)" fill="#9784EC"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -15, -5)" filter="url(#Path_114)">
+        <path id="Path_114-2" data-name="Path 114" d="M74.175,0,0,74.111H74.169Z" transform="translate(235.63 227.46) rotate(-180)" fill="#9784EC"/>
+      </g>
+    </g>
+    <path id="Subtraction_4" data-name="Subtraction 4" d="M74.175,222.461v0h0l.008-74.109h-.007V74.175H0V0H148.35V148.35h0l-.545.545H74.722v73.021l-.545.544Z" transform="translate(1526.017 3801)" fill="#6f4cce"/>
+  </g>
+</svg>

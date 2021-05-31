@@ -1,0 +1,154 @@
+@keyframes lamp {
+  from {
+    top: 0px;
+  }
+
+  50% {
+    top: 60px;
+  }
+
+  to {
+    top: 50px;
+  }
+}
+
+@keyframes lamp-desktop {
+  from {
+    top: -300px;
+  }
+
+  50% {
+    top: -40px;
+  }
+
+  to {
+    top: -60px;
+  }
+}
+
+@keyframes guy {
+  from {
+    top: 150%;
+  }
+
+  50% {
+    top: 48%;
+  }
+
+  to {
+    top: 50%;
+  }
+}
+
+@keyframes content {
+  from {
+    top: 50%;
+    opacity: 0;
+  }
+
+  50% {
+    top: 35%;
+  }
+
+  to {
+    top: 38%;
+    opacity: 1;
+  }
+}
+
+body {
+  overflow: hidden;
+}
+
+.light {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  width: 100vw;
+  animation: lamp 1s forwards;
+}
+
+.guy {
+  position: absolute;
+  left: 50%;
+  top: 150%;
+  transform: translateX(-50%);
+  width: 200vw;
+  width: 100vw;
+  animation: guy 2s 0.1s forwards;
+}
+
+.content {
+  opacity: 0;
+  z-index: 100;
+  position: absolute;
+  left: 50%;
+  top: 38%;
+  transform: translate(-50%, -50%);
+  padding-left: 20px;
+  width: 100vw;
+  animation: content 1s 1s forwards;
+}
+
+.desktopWrapper .content {
+  opacity: 0;
+  z-index: 100;
+  position: absolute;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  padding-left: 20px;
+  width: calc(100vw - 100px);
+  animation: content 1s 0.4s forwards;
+}
+
+.hero-text {
+  color: white;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 7vw;
+}
+
+.desktopWrapper .hero-text {
+  font-size: 50px;
+}
+
+.desktopWrapper .desc {
+  font-size: 20px;
+}
+
+.desktopWrapper .light {
+  left: 75%;
+  width: 70vw;
+  animation: lamp-desktop 1s forwards;
+}
+
+.desc {
+  color: rgb(113, 112, 112);
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.btn {
+  background-color: rgb(86, 240, 122);
+  outline: none;
+  border: none;
+  width: 125px;
+  height: 35px;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #0f0b37;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.desktopWrapper .btn{
+    width: 150px;
+    height: 40px;
+    font-size: 30px;
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+}

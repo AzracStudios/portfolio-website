@@ -1,0 +1,151 @@
+@keyframes mobile-head {
+  from {
+    top: 27%;
+  }
+
+  50% {
+    top: 10%;
+  }
+
+  to {
+    top: 17%;
+    opacity: 1;
+  }
+}
+
+@keyframes desktop-head {
+    from {
+      top: 27%;
+    }
+  
+    50% {
+      top: 10%;
+    }
+  
+    to {
+      top: 15%;
+      opacity: 1;
+    }
+  }
+
+@keyframes mobile-cards {
+  from {
+    opacity: 0;
+    top: -30px;
+  }
+
+  to {
+    opacity: 1;
+    top: 0px;
+  }
+}
+
+.mobileWrapper .head {
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  animation: mobile-head 1s forwards;
+}
+
+.mobileWrapper .cards {
+  position: absolute;
+  left: 51%;
+  top: 675px;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 150px 170px;
+  gap: 5px;
+  place-items: center;
+  margin-bottom: 50px;
+}
+
+.mobileWrapper .cards div {
+  position: relative;
+  width: 150px;
+  height: 200px;
+  background-color: #1d164b;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.479);
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 10px;
+  opacity: 0;
+  animation: 1s mobile-cards forwards;
+}
+
+.mobileWrapper .cards div img {
+  width: 130px;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+}
+
+.mobileWrapper .cards div p {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  font-size: 20px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.desktopWrapper .head {
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  animation: desktop-head 1s forwards;
+}
+
+.desktopWrapper .cards {
+  position: absolute;
+  left: 51%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px;
+  gap: 20px;
+  place-items: center;
+  margin-bottom: 50px;
+}
+
+.desktopWrapper .cards div {
+  position: relative;
+  width: 150px;
+  height: 200px;
+  background-color: #1d164b;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.479);
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 10px;
+  opacity: 0;
+  animation: 1s mobile-cards forwards;
+
+  transition: transform 0.5s;
+}
+
+.desktopWrapper .cards div:hover {
+    transform: translateY(-20px)
+  }
+
+.desktopWrapper .cards div img {
+  width: 130px;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+}
+
+.desktopWrapper .cards div p {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  font-size: 20px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}

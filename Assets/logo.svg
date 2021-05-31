@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59" height="59" viewBox="0 0 59 59">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="29.5" cy="29.5" r="29.5" transform="translate(-56.059 -112.203)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Logo" transform="translate(56.059 112.203)" clip-path="url(#clip-path)">
+    <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="31.5" cy="33" rx="31.5" ry="33" transform="translate(-58.059 -113.203)" fill="#0f0f0f"/>
+    <g id="Group_10" data-name="Group 10" transform="translate(-75.97 -125.271)">
+      <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="27.5" cy="28" rx="27.5" ry="28" transform="translate(0.911 0.068)" fill="#2a2a2a" opacity="0.59"/>
+      <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="29" cy="27.5" rx="29" ry="27.5" transform="translate(44.911 42.068)" fill="#4e4b4b" opacity="0.59"/>
+      <g id="Group_5" data-name="Group 5" transform="translate(0 16.389)">
+        <g id="Group_4" data-name="Group 4" transform="translate(0 0.835)" opacity="0.79">
+          <path id="Subtraction_1" data-name="Subtraction 1" d="M48.526,55.6H37.98L34.315,43.785h-20.2L9.785,55.6H0L19.256,0h9.933L48.526,55.6ZM24.182,12.755l-6.852,21.2H31.045Z"/>
+          <path id="Path_3" data-name="Path 3" d="M1090.979,902.4v10.389l23.194.048-23.69,36.88v8.218l37.782.021.006-10.434-24.615-.057,23.706-36.811,0-8.292Z" transform="translate(-1040.179 -902.287)"/>
+        </g>
+        <g id="Group_3" data-name="Group 3" transform="translate(5.314)">
+          <path id="Subtraction_1-2" data-name="Subtraction 1" d="M48.526,55.6H37.98L34.315,43.785h-20.2L9.785,55.6H0L19.256,0h9.933L48.526,55.6ZM24.182,12.755l-6.852,21.2H31.045Z" fill="#913131"/>
+          <path id="Path_3-2" data-name="Path 3" d="M1090.979,902.4v10.389l23.194.048-23.69,36.88v8.218l37.782.021.006-10.434-24.615-.057,23.706-36.811,0-8.292Z" transform="translate(-1040.179 -902.287)" fill="#913131"/>
+        </g>
+      </g>
+      <path id="Intersection_1" data-name="Intersection 1" d="M30.922,55.613H28.76v-.027H26.692l.009.027H16.186L12.771,44.606H7.013L0,37.833V29.209l2,1.935-.9,2.8H4.9L18.588,47.159,0,5.409V.821H2.737L3.021,0H4.383L24.691,45.612V33.719L29.4,47.254l1.524-2.373v.731l1.061-2.382L52.45,11.367l-6.275-.013L51.2.077l4.417,0V5.409L37.025,47.159l18.588-17.95V32.17L47.248,45.16l.776,0-7,6.759,14.588-3.368V54.92l-3,.693ZM29.256,11.318V.929l1.665,0V11.322Z" transform="translate(21.544 16.403)" fill="#332d2d" opacity="0.15"/>
+    </g>
+  </g>
+</svg>

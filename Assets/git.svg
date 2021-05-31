@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="292.501" height="292.496" viewBox="0 0 292.501 292.496">
+  <defs>
+    <filter id="Icon_awesome-git-alt" x="0" y="0" width="292.501" height="292.496" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.478"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="git" transform="translate(-1494.25 -2840.252)">
+    <path id="Path_102" data-name="Path 102" d="M4852.727,2723.95l-34.082,33.323s24.461,108.161,27.3,120.972,15.915,46,31.851,40.042,35.265-13.258,32.586-30.065,47.764-13.928,51.938-32.81,7.008-29.931-10.111-43.456-42.095-45.4-59.816-58.031S4852.727,2723.95,4852.727,2723.95Z" transform="translate(-3237 140)" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, 1494.25, 2840.25)" filter="url(#Icon_awesome-git-alt)">
+      <path id="Icon_awesome-git-alt-2" data-name="Icon awesome-git-alt" d="M257.549,138.311,142.969,23.7a16.916,16.916,0,0,0-23.912,0L95.232,47.508,125.42,77.7a20.086,20.086,0,0,1,25.424,25.594l29.1,29.1c20.057-6.914,35.848,18.164,20.783,33.217-15.521,15.521-41.139-1.682-32.812-21.879L140.754,116.6V188c14.824,7.348,13.043,24.521,5.32,32.227a20.106,20.106,0,1,1-21.855-32.812v-72.07C112.031,110.355,109.8,97.33,113.3,88.975L83.537,59.18l-78.586,78.6a16.91,16.91,0,0,0,0,23.912L119.566,276.3a16.91,16.91,0,0,0,23.906,0L257.549,162.223a16.91,16.91,0,0,0,0-23.912Z" transform="translate(15 -13.75)" fill="#e94e31"/>
+    </g>
+  </g>
+</svg>
