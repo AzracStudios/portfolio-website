@@ -66,7 +66,7 @@ export let projects = [
       "The website that you currently are on! Designed with inspiration taken from the most elegant developer portfolios on the internet",
     image: "portfolio.png",
     stack: ["Svelte", "SCSS", "Typescript", "Figma"],
-    github: "https://github.com/AzracStudios/portfolio-website/tree/new",
+    github: "https://github.com/AzracStudios/portfolio-website/",
     external: "https://adarshravikumar.netlify.app",
   },
 ];
