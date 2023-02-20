@@ -60,7 +60,7 @@
     gap: 2rem;
     height: 60vh;
 
-    padding-inline: 75px;
+    padding-inline: 5vw;
     padding-top: 25vh;
 
     .hero__sub,
@@ -91,7 +91,7 @@
     .hero__sub--large {
       font-family: "Monda";
       font-weight: 700;
-      font-size: clamp(30px, 3vw, 60px);
+      font-size: clamp(25px, 3vw, 60px);
     }
 
     .hero__name {
@@ -105,7 +105,7 @@
       .hero__name--letter {
         font-family: "Monda";
         font-weight: 700;
-        font-size: clamp(40px, 5vw, 80px);
+        font-size: clamp(35px, 5vw, 80px);
 
         display: inline-block;
         
@@ -129,7 +129,7 @@
       border: 2px solid #ececec;
       padding: 1rem 1.5rem;
 
-      font-size: 1.5vw;
+      font-size: clamp(15px, 1.5vw, 1.2rem);
 
       border-radius: 0.4rem;
       background-color: transparent;
