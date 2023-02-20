@@ -21,9 +21,9 @@
   <Nav />
   <Blob />
   <Home />
-  <About />
   <Skills />
   <Projects />
+  <About />
   <Contact />
   <Footer />
 </main>

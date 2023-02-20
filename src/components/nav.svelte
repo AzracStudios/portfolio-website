@@ -64,9 +64,9 @@
 
   <div class="nav__wrapper">
     <ul class={navOpen ? "nav--open" : ""}>
-      <NavLink page="about" {handleClick} />
       <NavLink page="skills" {handleClick} />
       <NavLink page="projects" {handleClick} />
+      <NavLink page="about" {handleClick} />
       <NavLink page="contact" {handleClick} />
     </ul>
 

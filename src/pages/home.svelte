@@ -24,7 +24,7 @@
       </div>
       <p class="hero__sub--large hide__on--load">
         <span class="block" />
-        Full-stack devloper
+        Full-stack developer
       </p>
     </div>
 
