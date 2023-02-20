@@ -1,0 +1,51 @@
+<script lang="ts">
+  // STYLES
+  import "./styles/about.scss";
+
+  const download = () => {
+    (document.querySelector("#cv") as HTMLAnchorElement).click();
+  };
+</script>
+
+<main id="about">
+  <div class="about__content">
+    <p class="about__title hide">A little about me...</p>
+    <p class="about__text hide">
+      Hello world! I am Adarsh Ravikumar, a developer based in India. My
+      interest for programming started brewing in the fall of 2019, when I
+      discovered that you can write programs that run inside of Microsoft Excel.
+      Bodging together POS and inventorty systems in excel taught me the very
+      basics of programming.
+    </p>
+    <p class="about__text hide">
+      The pandemic outbreak, which began in 2020, gave me a lot of free time. I
+      decided to learn a language that I had been hearing a lot about at that
+      time, python. and in the winter of 2020, I stepped foot into the exciting
+      world of web development
+    </p>
+
+    <!-- svelte-ignore a11y-missing-content -->
+    <a href="assets/misc/adarsh-ravikumar.pdf" download id="cv" />
+    <button class="hide" on:click={() => download()}>
+      <svg
+        width="149"
+        height="149"
+        viewBox="0 0 149 149"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M36.2459 10.6088C39.9867 8.36635 44.7112 11.0781 44.7112 15.3917C44.7112 17.3585 43.6828 19.1838 41.9912 20.1895C23.5404 31.2602 11.1778 51.4571 11.1778 74.5149C11.1778 109.463 39.5545 137.825 74.5037 137.825C109.453 137.825 137.822 109.463 137.822 74.5149C137.822 51.472 125.482 31.2825 107.039 20.2118C105.362 19.1986 104.326 17.3808 104.326 15.414C104.326 11.0781 109.058 8.3887 112.799 10.6312C134.484 23.6537 149 47.4043 149 74.5149C149 115.631 115.623 149 74.5037 149C33.3843 149 0 115.631 0 74.5149C0 47.3894 14.5386 23.6314 36.2459 10.6088ZM42.4384 74.5447C42.4384 74.5447 57.5284 89.6011 70.5989 102.661C71.6944 103.756 73.1251 104.3 74.5484 104.3C75.9792 104.3 77.41 103.756 78.5054 102.661C91.5685 89.6086 106.666 74.5372 106.666 74.5372C107.746 73.457 108.283 72.034 108.283 70.6185C108.283 69.1881 107.732 67.7578 106.636 66.6626C104.46 64.4798 100.928 64.4723 98.767 66.6328L80.1373 85.2503V5.5875C80.1373 2.5032 77.6335 0 74.5484 0C71.4634 0 68.9595 2.5032 68.9595 5.5875V85.2503L50.3448 66.6402C48.1912 64.4872 44.6665 64.5096 42.4905 66.685C41.3951 67.7801 40.8437 69.2105 40.8362 70.6409C40.8362 72.0564 41.3653 73.4719 42.4384 74.5447Z"
+          fill="#F4F4F4"
+        />
+      </svg>
+
+      <p>Curriculum vitae</p>
+    </button>
+  </div>
+
+  <div class="about__portriat hide">
+    <div class="about__portriat--border" />
+    <img src="assets/misc/me.png" alt="me" />
+  </div>
+</main>

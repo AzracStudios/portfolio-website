@@ -1,0 +1,73 @@
+@keyframes logo_reveal {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fly_fade {
+  to {
+    top: -30vh;
+    opacity: 0;
+  }
+}
+
+@keyframes fade_out {
+  to {
+    backdrop-filter: blur(0);
+    -webkit-backdrop-filter: blur(0);
+    background: rgba(35, 33, 36, 0);
+  }
+
+  99% {
+    z-index: 10;
+  }
+
+  100% {
+    z-index: 0;
+  }
+}
+
+#loader {
+  width: 100vw;
+  height: 100vh;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
+  z-index: 10;
+
+  // BLUR
+  background: rgba(35, 33, 36, 0.8);
+  backdrop-filter: blur(0.5rem);
+  -webkit-backdrop-filter: blur(0.5rem);
+
+  animation: fade_out 2s 3.2s ease-in-out forwards;
+
+  #loader__logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: fly_fade 2s 3s ease-in-out forwards;
+  }
+
+  // ANIMATE LOGO OUTLINE
+  #loader__logo--path1 {
+    stroke-dasharray: 809;
+    stroke-dashoffset: 809;
+    animation: logo_reveal 2s 0s ease-in-out forwards;
+  }
+
+  #loader__logo--path2 {
+    stroke-dasharray: 167;
+    stroke-dashoffset: 167;
+    animation: logo_reveal 2s 1s ease-in-out forwards;
+  }
+
+  #loader__logo--path3 {
+    stroke-dasharray: 173;
+    stroke-dashoffset: 173;
+    animation: logo_reveal 2s 0s ease-in-out forwards;
+  }
+}

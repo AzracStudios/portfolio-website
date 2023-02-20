@@ -1,0 +1,46 @@
+@keyframes rotate_blob {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 360deg;
+  }
+}
+
+#blob {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.blob__blob {
+  width: 25vw;
+  min-width: 300px;
+  aspect-ratio: 1;
+  background: linear-gradient(155.26deg, #3994ff 15.77%, #b7f865 105.82%);
+  border-radius: 100%;
+  animation: rotate_blob linear infinite 20s;
+  z-index: 0;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+}
+
+.blob__blur {
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+  background: #232223b4;
+  -webkit-backdrop-filter: blur(100px);
+  backdrop-filter: blur(100px);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}

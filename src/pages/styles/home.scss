@@ -1,0 +1,177 @@
+@keyframes bounce {
+  0% {
+    top: 30vh;
+  }
+
+  25% {
+    top: 28vh;
+  }
+
+  50% {
+    top: 30vh;
+  }
+
+  100% {
+    top: 30vh;
+  }
+}
+
+@keyframes block-reveal {
+  0% {
+    width: 0%;
+  }
+
+  50% {
+    width: 150%;
+  }
+
+  100% {
+    width: 0%;
+  }
+}
+
+@keyframes text-reveal {
+  50% {
+    color: transparent;
+  }
+
+  100% {
+    color: rgb(224, 224, 224);
+  }
+}
+
+@keyframes button-reveal {
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+
+  #hero {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 60vh;
+
+    padding-inline: 75px;
+    padding-top: 25vh;
+
+    .hero__sub,
+    .hero__sub--large {
+      width: fit-content;
+      color: transparent;
+
+      .block {
+        width: 0%;
+        height: 150%;
+
+        position: absolute;
+        top: 50%;
+        translate: 0% -50%;
+
+        background: rgb(218, 82, 55);
+      }
+
+      &.show {
+        animation: text-reveal 1s 1s ease forwards;
+
+        .block {
+          animation: block-reveal 1s 1s ease forwards;
+        }
+      }
+    }
+
+    .hero__sub--large {
+      font-family: "Monda";
+      font-weight: 700;
+      font-size: clamp(30px, 3vw, 60px);
+    }
+
+    .hero__name {
+      width: fit-content;
+      height: 4rem;
+      display: flex;
+      align-items: center;
+
+      margin-block: 0.5rem;
+
+      .hero__name--letter {
+        font-family: "Monda";
+        font-weight: 700;
+        font-size: clamp(40px, 5vw, 80px);
+
+        display: inline-block;
+        
+        &.hide__on--load {
+          color: transparent;
+          top: 1rem;
+        }
+        
+        &.show {
+          transition: color 2s 1.5s ease, margin-bottom 0.3s 0s ease-in-out;
+        }
+        &:hover {
+          margin-bottom: 1.5rem;
+          cursor: pointer;
+        }
+      }
+    }
+
+    button {
+      width: fit-content;
+      border: 2px solid #ececec;
+      padding: 1rem 1.5rem;
+
+      font-size: 1.5vw;
+
+      border-radius: 0.4rem;
+      background-color: transparent;
+      outline-color: transparent;
+      font-weight: 500;
+
+      &:hover {
+        background-color: #ececec;
+        cursor: pointer;
+        color: #232223;
+      }
+
+      transition: background-color, color, 0.3s linear;
+
+      opacity: 0;
+      top: 2rem;
+
+      &.show {
+        animation: button-reveal 1s 2s ease forwards;
+      }
+    }
+  }
+
+  .home__scroll-prompt {
+    width: 2rem;
+    height: 3rem;
+    border-radius: 10rem;
+    border: 3px solid #898989;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    top: 30vh;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    animation: bounce 2s 5s ease-in-out infinite;
+
+    img {
+      margin-bottom: 0.5rem;
+      width: 0.9rem;
+    }
+  }
+}
