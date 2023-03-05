@@ -11,17 +11,17 @@
   <div class="about__content">
     <p class="about__title hide">A little about me...</p>
     <p class="about__text hide">
-      Hello world! I am Adarsh Ravikumar, a developer based in India. My
-      interest for programming started brewing in the fall of 2019, when I
-      discovered that you can write programs that run inside of Microsoft Excel.
-      Bodging together POS and inventorty systems in excel taught me the very
-      basics of programming.
+      Hello, world! I am Adarsh Ravikumar, a developer based in India. My
+      interest in programming started brewing in the fall of 2019 when I
+      discovered that you can write programs that run inside Microsoft Excel.
+      Bodging together POS and inventory systems in excel taught me the very
+      basics of programming. 
     </p>
     <p class="about__text hide">
-      The pandemic outbreak, which began in 2020, gave me a lot of free time. I
-      decided to learn a language that I had been hearing a lot about at that
-      time, python. and in the winter of 2020, I stepped foot into the exciting
-      world of web development
+      The pandemic outbreak, which began in 2020, gave me
+      a lot of free time. I decided to learn a language that I had been hearing
+      a lot about at that time, python. And in the winter of 2020, I stepped
+      foot into the exciting world of web development
     </p>
 
     <!-- svelte-ignore a11y-missing-content -->
