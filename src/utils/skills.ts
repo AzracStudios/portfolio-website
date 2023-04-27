@@ -41,14 +41,33 @@ export const skills = [
   },
 
   {
+    title: "3D",
+    skills: ["Unity", "Godot", "Blender"],
+    logo: "3d.svg",
+  },
+
+  {
+    title: "C#",
+    skills: ["ASP.NET", "Monobehaviour"],
+    logo: "csharp.svg",
+  },
+  
+  {
+    title: "Flutter",
+    skills: ["Flutter", "Dart"],
+    logo: "flutter.svg",
+  },
+  
+  {
+    title: "Linux",
+    skills: ["Debian", "Arch"],
+    logo: "linux.svg",
+  },
+  
+  {
     title: "Git",
     skills: ["Git", "Github"],
     logo: "git.svg",
   },
 
-  {
-    title: "3D",
-    skills: ["Unity", "Godot", "Blender"],
-    logo: "3d.svg",
-  },
 ];
